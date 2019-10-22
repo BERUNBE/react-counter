@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Counter from './component/Counter.js';
+import CounterWithReduxState from './component/Counter/CounterWithReduxState.js';
 
 class App extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class App extends React.Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <Counter/>
+          <CounterWithReduxState/>
         </header>
       </div>
     );
